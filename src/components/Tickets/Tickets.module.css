@@ -1,0 +1,43 @@
+table {
+  border: 2px solid #32ad32;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+  font-size: 1.4rem;
+  color: #141212;
+}
+
+table thead th {
+  background-color: #62bd62;
+  padding: 5px 0;
+  border-bottom: 2px solid #32ad32;
+}
+
+table tbody tr {
+  background-color: #9abb9a;
+  font-size: 1.2rem;
+}
+
+td {
+  padding: 5px 0;
+}
+
+.sumTd {
+  font-weight: 700;
+  text-align: right;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #62bd62;
+}
+
+.arrowUp {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.arrowDown {
+  cursor: pointer;
+  transform: scale(1.5) rotate(0.5turn);
+}

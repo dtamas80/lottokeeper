@@ -1,0 +1,72 @@
+.ballsContainer {
+  width: 70%;
+  margin: 50px auto 20px auto;
+}
+
+.ball {
+  border: 1px solid #32ad32;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.ball:hover {
+  background-color: #62bd62;
+  cursor: pointer;
+}
+
+.selectedBall {
+  background-color: #32ad32;
+}
+
+.cancelGameButton {
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  min-width: 100px;
+  text-align: center;
+  background-color: #ce2323;
+  min-height: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+  color: #000;
+}
+
+.cancelGameButton:hover {
+  background-color: #eb6363;
+}
+
+.gameButton {
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  min-width: 100px;
+  text-align: center;
+  background-color: #32ad32;
+  min-height: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+.disabledGameButton {
+  cursor: not-allowed;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  min-width: 100px;
+  text-align: center;
+  background-color: #a7a7a7;
+  min-height: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+.gameButton:hover {
+  background-color: #62bd62;
+  cursor: pointer;
+}

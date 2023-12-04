@@ -1,0 +1,86 @@
+h1.title {
+  color: #c5c5c5;
+  margin: 40px auto;
+}
+
+li a {
+  color: #c5c5c5;
+  text-decoration: none;
+}
+
+li a:hover,
+a.active {
+  color: #32ad32;
+  text-decoration: underline;
+}
+
+.controlButton {
+  display: block;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  min-width: 300px;
+  text-align: center;
+  background-color: #32ad32;
+  min-height: 48px;
+  margin: 20px auto;
+  text-decoration: none;
+  font-size: 24px;
+  color: #000;
+}
+
+.controlButton:hover{
+  background-color: #62bd62;
+}
+
+table {
+  margin: 10px auto;
+  text-align: center;
+}
+
+hr {
+  color: #32ad32;
+  border: 1px solid #32ad32;
+  margin-top: 50px;
+}
+
+.popup-overlay {
+  background: rgba(235, 0, 0, 0.5);
+}
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}
+
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}

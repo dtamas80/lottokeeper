@@ -1,0 +1,29 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  color: #c5c5c5;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  padding: 0 20px;
+  border-right: 2px solid #c5c5c5;
+}
+
+li:last-child {
+  border: none;
+}

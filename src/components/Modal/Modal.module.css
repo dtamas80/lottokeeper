@@ -1,0 +1,82 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.modalContainer {
+  max-width: 700px;
+  width: 100%;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: #c0c0c0;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  border: 1px solid #32ad32;
+  border-radius: 30px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+  color: #141212;
+}
+
+h1 {
+  color: #141212;
+}
+
+.inputContainer label {
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
+
+.inputContainer input {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid #32ad32;
+}
+
+.inputContainer p {
+  margin: 0;
+  color: red;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+}
+
+.buttonContainer :nth-child(1) {
+  margin-right: 20px;
+  background-color: #ce2323;
+}
+
+.buttonContainer :nth-child(1):hover {
+  background-color: #eb6363;
+}
+
+.buttonContainer button {
+  cursor: pointer;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  min-width: 200px;
+  text-align: center;
+  background-color: #32ad32;
+  min-height: 40px;
+  margin: 20px auto;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+.buttonContainer button:hover {
+  background-color: #62bd62;
+}
